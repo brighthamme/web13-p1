@@ -1,0 +1,131 @@
+div,body,p,blockquote,h1,h2,h3,h4,h5,h6,ul,ol,li,form{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    color: #333;
+}
+.clearfix:after{
+    content: '';
+    height: 0;
+    clear: both;
+    display: block;
+}
+span,a{
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+/* 公共样式 */
+/* 字体 */
+.ft16{
+    font-size: 16px;
+    font-weight: 600;
+}
+.fwbl{
+    font-weight: 500;
+}
+/* 颜色 */
+.blbk{
+    background: #6d9dce;
+    color: white;
+}
+.yebk{
+    background: #dfdfdf;
+}
+.blcl{
+    color: #6d9dce;
+}
+.orcl{
+    color: #fe9b00;
+}
+.wtbk{
+    background: white;
+    color: black;
+}
+/* 宽高 */
+.wh30{
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.ht30{
+    height: 30px;
+}
+.ht40{
+    height: 40px;
+    line-height: 40px;
+}
+
+/* 边框 */
+.bor{
+    border: 1px solid #989898;
+}
+.borr{
+    border-right: 1px solid #989899;
+}
+.brra{
+    border-radius: 0.3em;
+}
+.borlr{
+    border-left: 1px solid #6d9dce;
+    border-right: 1px solid #6d9dce;
+    padding:0 10px;
+}
+/* 居中、边距 */
+.pd10{
+    padding: 10px;
+}
+.mr10{
+    margin: 10px;
+}
+.mrauto{
+    margin: 0 auto;
+    width: 1000px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mlr10{
+    margin:0 10px;
+}
+.mtb10{
+    margin: 10px 0;
+}
+.ml30{
+    margin-left: 30px;
+}
+.pdlr10{
+    padding: 0 10px;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
